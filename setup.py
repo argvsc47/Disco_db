@@ -18,7 +18,7 @@ setup(
     'Development Status :: 5 - Production/Stable',
     'Intended Audience :: Developers',
     'Topic :: Database',
-    'License :: OSI Approved :: GNU Public License 3.0',
+    'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
     'Programming Language :: Python :: 3',
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
