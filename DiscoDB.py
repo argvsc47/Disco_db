@@ -117,8 +117,3 @@ class Disco:
 		key = base64.urlsafe_b64encode(kdf.derive(pw.encode()))
 		f = Fernet(key)
 		self.database_list.update({fn:Database(fn+'.dd', db=eval(f.decrypt(data)))})
-
-###DRIVER
-disco = Disco()
-disco.loadDatabase('test')
-print(disco['test'])
