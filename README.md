@@ -27,7 +27,8 @@ myclient['example'].addTable('mytable', {'column1': [], 'column2': []})
 ```python
 ...
 
-myDatabase['example'].commit() # the commit method saves the database in a file with the .dd extension encoded with an elliptic curve
+myDatabase['example'].commit() 
+# the commit method saves the database in a file with the .dd extension encoded with an elliptic curve
 ```
 
 ## loading a database
@@ -38,8 +39,8 @@ if you already have a database, to access it you can follow the example below
 import DiscoDB
 
 myclient = DiscoDB.Disco()
-myclient.loadDatabase('example') # if you used the default settings when making your database this is enough else you can specify the pw and sl argument again
+myclient.loadDatabase('example') 
+# if you used the default settings when making your database this is enough else you can specify the pw and sl argument again
+
 print(myclient['example'])
-```
-myclient.loadDatabase('example')
 ```
