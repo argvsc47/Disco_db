@@ -9,7 +9,7 @@ setup(
   author = 'argvsc47',
   author_email = '',
   url = 'https://github.com/argvsc47/Disco_db',
-  download_url = 'https://github.com/argvsc47/Disco_db/archive/refs/tags/v_1.0.tar.gz',
+  download_url = 'https://github.com/argvsc47/Disco_db/archive/refs/tags/v1.0.tar.gz',
   keywords = ['Disco', 'Database', 'light', 'secure'],
   install_requires=[
           'cryptography',
