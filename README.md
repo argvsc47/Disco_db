@@ -3,16 +3,16 @@ Disco is minimalist password encoded database system made in python, that emphas
 
 # Installation
 ```
-pip install DiscoDB
+pip install Disco_db
 ```
 # Examples
 
 ## making a new database and table
 
 ```python
-import DiscoDB
+import Disco_db
 
-myclient = DiscoDB.Disco() # initialize database client
+myclient = Disco_db.Disco() # initialize database client
 myclient.addDatabase('example') # make a new database called 'example'
 # you can also specify a custom password instead of the default "12345678" and a custom salt instead of 'salt_'
 # by setting the arguments pw and sl respectively
@@ -40,9 +40,9 @@ myDatabase['example'].commit()
 if you already have a database, to access it you can follow the example below
 
 ```python
-import DiscoDB
+import Disco_db
 
-myclient = DiscoDB.Disco()
+myclient = Disco_db.Disco()
 myclient.loadDatabase('example') 
 # if you used the default settings when making your database this is enough else you can specify the pw and sl argument again
 
