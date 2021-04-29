@@ -25,13 +25,13 @@ class Database:
 			retv.append(self.tables[table][key][index])
 		return retv
 
-	def insert(self, table, values): #"" () insert("users", {"id": })
+	def insert(self, table, values):
 		self.tables[table]["row_id"].append(self.getlast(table))
 		for key in values:
 			if key in self.tables[table]:
 				self.tables[table][key].append(values[key])
 
-	def select(self, column, table, where_args=[]): #select * from users where pass="lol"
+	def select(self, column, table, where_args=[]):
 		ret = []
 		if where_args:
 			for idx, row_entry in enumerate(self.tables[table][where_args[0]]):
