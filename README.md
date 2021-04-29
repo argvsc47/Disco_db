@@ -1,7 +1,11 @@
 # Disco
 Disco is minimalist password encoded database system made in python, that emphasizes simplicity and efficiency
 
-# Example
+# Installation
+```cli
+pip install DiscoDB
+```
+# Examples
 
 ## making a new database and table
 
