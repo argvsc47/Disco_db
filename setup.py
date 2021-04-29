@@ -3,13 +3,13 @@ from distutils.core import setup
 setup(
   name = 'Disco_db',
   packages = ['Disco_db'],
-  version = '1.0',
+  version = '1.1',
   license='gpl-3.0',     
   description = 'Disco is minimalist password encoded database system made in python, that emphasizes simplicity and efficiency',
   author = 'argvsc47',
   author_email = '',
   url = 'https://github.com/argvsc47/Disco_db',
-  download_url = 'https://github.com/argvsc47/Disco_db/archive/refs/tags/v1.0.tar.gz',
+  download_url = 'https://github.com/argvsc47/Disco_db/archive/refs/tags/v1.1.tar.gz',
   keywords = ['Disco', 'Database', 'light', 'secure'],
   install_requires=[
           'cryptography',
