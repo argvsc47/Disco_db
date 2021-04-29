@@ -1,1 +1,1 @@
-from DiscoDB import Disco, Database
+from Disco_db.DiscoDB import Disco, Database
