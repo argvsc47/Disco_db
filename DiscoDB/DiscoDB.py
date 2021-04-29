@@ -6,7 +6,7 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
 class Database:
-	def __init__(self, fn, db={}, password, salt):
+	def __init__(self, fn, password, salt, db={}):
 
 		self.password = password.encode()
 		self.salt = salt
